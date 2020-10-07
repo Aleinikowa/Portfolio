@@ -1,0 +1,10 @@
+{
+  "database": {
+    "data": "./database/data.json"
+  },
+
+  "routes": {
+    "users": "./routes/users.js",
+    "user": "./routes/user.js"
+  }
+}

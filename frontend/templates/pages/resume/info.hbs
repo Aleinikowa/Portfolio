@@ -1,0 +1,86 @@
+<div  class="wrapper__content">
+    <div class="wrapper__content-profile" id="wrapperCover">
+        <div class="cover">
+            <div class="cover__img" id="blockImg">
+                <a class="cover__img-btn" id="coverJS"><i class="fa fa-camera fa-3x" aria-hidden="true"></i></a>    
+                <img class="cover__img-picture" src="{{cover}}">
+            </div>
+            <div class="cover__modal none" id="coverModalJS">
+                <div class="cover__modal-wrapp">
+                    <span class="close" id="coverCloseJS"><i class="fa fa-times" aria-hidden="true"></i></span>
+                    <input class="input" type="text" id="inputCoverJS" placeholder="insert the link to the photo">
+                    <input class="btn" type="button" value="Add Photo" id="addURLCoverJS">
+                </div>    
+            </div>
+        </div>
+        <div id="fullNameJS" class="avatar">
+            <div class="avatar__img" id="imgAvatarJS" style="background: url({{avatar}}) center center">
+            <div class="avatar__modal none" id="avatarModalJS">
+                <div class="avatar__modal-wrp">
+                    <span class="close" id="avatarCloseJS"><i class="fa fa-times" aria-hidden="true"></i></span>
+                    <input class="input" type="text" id="urlPhotoJS" placeholder="insert the link to the photo">
+                    <input class="btn" type="button" value="Add Photo" id="avatarAddJS">
+                </div>    
+            </div>
+            </div>    
+            <h2 id="fullNameJS">{{firstName}} {{lastName}}</h2>
+        </div>
+        <div class="description">
+            <div class="description__part-one">
+                <h5><i class="fa fa-globe" aria-hidden="true"></i>{{from}}<span>from</span></h5>
+                <h5><i class="fa fa-address-book" aria-hidden="true"></i>{{nationality}}<span>nationality</span></h5>
+                <h5><i class="fa fa-star" aria-hidden="true"></i>{{performance}}<span>performance</span></h5>
+                <h5><i class="fa fa-birthday-cake" aria-hidden="true"></i>{{age}} years old<span>age</span></h5>
+            </div>
+            <div class="description__part">
+                <h5><i class="fa fa-map-marker" aria-hidden="true"></i>Seoul, South Korea<span>now</span></h5>
+                <h5><i class="fa fa-calendar" aria-hidden="true"></i>2012/01/01<span>ending</span></h5>
+            </div>
+            <div class="description__part">
+                <h5><i class="fa fa-calendar-o" aria-hidden="true"></i>6 years (in band)<span>experience</span></h5>
+                <h5><i class="fa fa-map-signs" aria-hidden="true"></i>Plaza, Malaysia<span>last place</span></h5>
+            </div>
+            <div class="description__part">
+                <h5><i class="fa fa-envelope" aria-hidden="true"></i>{{email}}<span>mail</span></h5>
+                <h5><span>phone</span><i class="fa fa-phone-square" aria-hidden="true"></i>+375291271857</h5>
+            </div>
+        </div>
+        <div class="port">
+            <h3>Portfolio</h3>
+            <div class="port__wrapper">
+                <div class="port__wrapper-part">
+                    <img src="{{photo1}}">
+                    <input type="text" id="photo1" data-counter="1" placeholder="link">
+                </div>
+                <div class="port__wrapper-part">
+                    <img src="{{photo2}}">
+                    <input type="text" id="photo2" data-counter="2" placeholder="link">
+                </div>
+                <div class="port__wrapper-part">
+                    <img src="{{photo3}}">
+                    <input type="text" id="photo3" data-counter="3" placeholder="link">
+                </div>
+                <div class="port__wrapper-part">
+                    <img src="{{photo4}}">
+                    <input type="text" id="photo4" data-counter="4" placeholder="link">
+                </div>
+            </div>
+            <div class="port__video">
+                <div class="port__video-back">
+                    <iframe width="99%" height="550" src="{{video}}"></iframe>
+                    <a id="noneText" type="button"><i class="fa fa-caret-down fa-4x" aria-hidden="true"></i></a>
+                    <div class="video">
+                        <h3 class="video__txt">You can add your YouTube video</h3>
+                        <input id="inputAddVideoJS" class="video__inp"  type="text" placeholder="copy the link to youtube video">
+                        <input id="btnAddVideoJS" class="video__add" type="button" value="add video from youtube">
+                    </div>
+                </div>
+            </div>
+            <div class="port__send">
+                <input class="port__send-email" type="text" id="emailAgentJS" placeholder="insert agent email address">
+                <textarea class="port__send-note" id="noteJS"></textarea>
+                <a type="submit"  id="sendResumeJS" class="port__send-btn">Send Resume</a>
+            </div>    
+        </div>    
+    </div>
+</div> 
